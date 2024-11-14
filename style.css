@@ -1,0 +1,51 @@
+/* Apply this to the body or a specific container */
+body {
+    animation: jedagJedug 1s infinite alternate;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100vw;
+    padding: 24px;
+  }
+  
+  /* Define the jedag-jedug keyframe animation with 10 colors */
+  @keyframes jedagJedug {
+    0% {
+      background-color: #ff4d4d; /* Bright Red */
+    }
+    10% {
+      background-color: #ff944d; /* Orange */
+    }
+    20% {
+      background-color: #ffcc4d; /* Yellow */
+    }
+    30% {
+      background-color: #ccff4d; /* Lime */
+    }
+    40% {
+      background-color: #4dff4d; /* Green */
+    }
+    50% {
+      background-color: #4dffcc; /* Cyan */
+    }
+    60% {
+      background-color: #4dccff; /* Light Blue */
+    }
+    70% {
+      background-color: #4d4dff; /* Blue */
+    }
+    80% {
+      background-color: #944dff; /* Purple */
+    }
+    90% {
+      background-color: #ff4dff; /* Magenta */
+    }
+    100% {
+      background-color: #ff4d94; /* Pink */
+    }
+  }
+  
